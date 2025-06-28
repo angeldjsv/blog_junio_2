@@ -1,19 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Miguel</title>
+    <title>Blog de Angell</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
 </head>
 <body>
     <header>
-        <a href=" {% url 'post-list' %}"><h1>Blog de Ualejm17</h1></a>
+        <a href=" {% url 'post-list' %}"><h1>Blog de Angel</h1></a>
     </header>      
     {% block content %}
 
     {% endblock %}
     <footer>
-        <p>&copy; 2025 - Blog de Ualejm17</p>
+        <p>&copy; 2025 - Blog de angeldjsv</p>
     </footer>
 
 
